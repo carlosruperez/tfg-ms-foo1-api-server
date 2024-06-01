@@ -23,5 +23,5 @@ from .views import hello_world
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('api/v1/version/', hello_world, name='version')
+    path('tfg/api/foo1/version/', hello_world, name='version')
 ]
