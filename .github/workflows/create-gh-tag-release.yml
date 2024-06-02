@@ -39,6 +39,7 @@ jobs:
       run: |
         git config --global user.name 'Automation-CI-CD'
         git config --global user.email 'info@example.com'
+        git pull
         git commit -m "[skip ci] Increasing Application patch version to ${{ steps.artifact.outputs.version }}" pyproject.toml
         git push -u origin develop
 
