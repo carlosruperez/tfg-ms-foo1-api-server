@@ -2,3 +2,4 @@
 .idea/
 mysite/__pycache__
 db.sqlite3
+.env
